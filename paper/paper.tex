@@ -1,0 +1,129 @@
+\documentclass[10pt,conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{subfig}
+\usepackage{listings}
+
+% \usepackage{subcaption}
+\lstset{numbers=left,stepnumber=1,basicstyle=\footnotesize\ttfamily}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\def\code#1{\texttt{#1}}
+
+\makeatletter
+\def\endthebibliography{%
+  \def\@noitemerr{\@latex@warning{Empty `thebibliography' environment}}%
+  \endlist
+}
+\makeatother
+
+\begin{document}
+
+\title{Title\\}
+
+\author{\IEEEauthorblockN{Author}
+  \IEEEauthorblockA{ \textit{Department of Study} \\
+     \textit{University of Location}\\
+    City, Country\\
+  Email: author@example.com}
+}
+
+\maketitle
+
+\begin{abstract}
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tellus elit, porta aliquam dolor vitae, pulvinar lobortis felis. Cras nibh mauris, lacinia ac tincidunt a, suscipit vitae mauris. Donec congue orci id lacinia varius. Morbi venenatis est velit, et ornare eros tempus at. Nam egestas sagittis tortor, non blandit ex pharetra sit amet. Suspendisse ultrices eros nec convallis venenatis. Nunc et justo est. Suspendisse ornare malesuada purus, nec scelerisque nibh porta ac. Suspendisse orci felis, pulvinar nec ex non, vulputate vestibulum mi. Curabitur quis odio nec urna laoreet gravida et in neque. Suspendisse vel pretium quam. Sed pulvinar velit viverra nibh commodo, eget convallis ipsum tincidunt. Nulla in egestas risus, sit amet bibendum justo. Cras nunc libero, consequat sed efficitur a, tincidunt eu ligula. Morbi tortor tellus, ultrices in pulvinar nec, laoreet et ligula. Duis dictum erat vel tincidunt fringilla.
+\end{abstract}
+
+\begin{IEEEkeywords}
+  IEEE; Template; Latex; Sample;
+\end{IEEEkeywords}
+
+
+\section{Introduction}
+  Phasellus dictum vitae lorem rutrum feugiat. Mauris pulvinar orci et efficitur ultricies. Praesent nec ultrices felis. Donec sollicitudin, ipsum et interdum dapibus, nunc risus blandit nisi, nec mattis justo erat non enim. Etiam faucibus sagittis lorem ut aliquam. Integer turpis nunc, fermentum eget accumsan quis, mattis sed ex. Ut aliquam eu nisi a finibus. Fusce ullamcorper aliquam nisi vitae pharetra. Aliquam erat volutpat. Integer vitae urna ac magna pretium aliquam vitae non leo. Phasellus interdum tortor velit.
+
+\section{Second Section}
+  Phasellus ultricies maximus massa. Proin tristique, arcu at posuere condimentum, nisl lacus imperdiet leo, ornare tristique tortor urna et massa. Vestibulum tincidunt leo vitae ex facilisis efficitur. Sed sit amet tellus neque. Sed sed blandit diam. Fusce vel dui consequat, ultricies diam id, luctus nunc. Pellentesque iaculis venenatis nisl. Donec aliquet nulla et viverra accumsan. Sed mollis porta ex id tincidunt. Donec vitae ullamcorper dui. Proin sodales dictum nisi. Suspendisse mollis egestas lorem id lobortis. Aenean hendrerit lorem sit amet sapien ullamcorper hendrerit. Etiam id congue sem. Aliquam dolor elit, euismod sit amet imperdiet et, rutrum in turpis.
+  \subsection{Subsection}
+    Aenean sodales libero non quam sodales consectetur. Nulla rutrum nec erat ac commodo. Aenean tellus orci, sagittis quis egestas quis, hendrerit sed neque. Aenean est est, pellentesque vitae efficitur non, tristique tincidunt enim. Vivamus vel eros eget odio fermentum rutrum. Nulla convallis maximus fermentum. In hac habitasse platea dictumst. Fusce elementum lorem sed sapien commodo pretium. Sed sollicitudin feugiat fermentum. In hac habitasse platea dictumst. Nam sollicitudin sagittis elit in semper. Ut laoreet justo tellus, vel luctus mi gravida vitae. Duis hendrerit faucibus sodales. Aenean sodales, tortor et hendrerit consectetur, felis quam scelerisque dolor, id faucibus nisl lorem id libero. Suspendisse tellus felis, dictum a ipsum id, eleifend malesuada felis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+  
+  
+
+\section{Itemizing}
+  Vestibulum euismod mauris a ante euismod condimentum. Nullam ultrices erat quis velit egestas lobortis.
+  \begin{itemize}
+    \item Integer ligula urna, vestibulum a risus sit amet, fermentum hendrerit erat. Nullam aliquam eget magna ac laoreet. Sed ac pharetra enim.
+    \item Fusce aliquam erat urna, id pellentesque lorem dapibus vel. Integer pellentesque mi id purus tempus sollicitudin.
+    \item Sed pellentesque pretium tellus, sed consequat turpis ullamcorper non. Morbi vitae rutrum quam. Aliquam a metus nec justo bibendum tempus at a nibh.
+  \end{itemize}
+  Aliquam quis nisi scelerisque, ultrices nunc non, scelerisque sem. Nulla tincidunt, diam id feugiat laoreet, massa risus mattis dolor, non sodales dolor odio at tellus. Nunc at dictum mauris. Vestibulum convallis, ipsum id tincidunt dictum, nisi ligula elementum sem, a imperdiet dui ipsum ut ipsum. Curabitur malesuada sapien eu libero elementum, vitae vehicula felis molestie.
+
+\section{Figures}
+  % IEE-compatible Subfigure:
+  \begin{figure}
+    \centering
+    \subfloat[A\label{sample_a}]{\includegraphics[width=0.24\textwidth]{figures/example.png}} \\
+    \subfloat[B\label{sample_b}]{\includegraphics[width=0.24\textwidth]{figures/example.png}}
+    \subfloat[C\label{sample_c}]{\includegraphics[width=0.24\textwidth]{figures/example.png}}
+    \caption{A, B and C}
+    \label{abc}
+  \end{figure}
+
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.4\textwidth]{figures/example.png}
+    \caption{Example Figure}
+    \label{samplefig}
+  \end{figure}
+
+  Praesent magna risus, tincidunt eget aliquam eu, vestibulum at tellus. In leo dui, commodo vitae magna quis, tempor vehicula lorem. Curabitur tincidunt magna vel tellus facilisis, vel luctus neque vestibulum. Morbi eu nibh id magna tincidunt eleifend sit amet in mi. Integer cursus ipsum nulla, quis laoreet turpis interdum eu. Maecenas viverra vel arcu quis euismod. Etiam luctus ipsum efficitur, vehicula risus nec, dapibus nisi. Mauris sed nibh at risus pretium faucibus. Vivamus sed hendrerit odio, a accumsan metus. Duis in molestie leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+
+
+
+
+\section{Tables}
+
+  \begin{table}
+    \centering
+    \begin{tabular}{c|c c c}
+      & A & B & C \\
+      \hline
+      \hline
+      E & 0.818 & 0.772 & 0.838 \\
+      F & 0.732 & 0.645 & 0.785 \\
+      G & 0.810 & 0.758 & 0.804 \\
+      \hline
+      AA & 0.500 & 0.000 & 0.631 \\
+      AB & 0.499 & 0.424 & 0.499 \\
+
+    \end{tabular}
+    \caption{Sample table.}
+    \label{tableexample}
+  \end{table}
+
+  Etiam mi enim, laoreet ac aliquam ut, faucibus vitae orci. Sed dapibus, neque et lobortis tristique, nisl urna pellentesque elit, in fermentum metus lacus sed tortor. Morbi tellus magna, volutpat a purus quis, elementum imperdiet velit. Aliquam varius libero et tristique maximus. Vestibulum nec vulputate magna, tincidunt sagittis dui. Quisque semper placerat fermentum. Quisque malesuada eu nibh et eleifend. Phasellus vehicula dolor id purus hendrerit dignissim. Quisque interdum turpis sit amet purus sodales mattis.
+
+
+
+
+
+
+
+\section{Conclusion}
+  Cras ut metus finibus, ornare nunc in, mattis eros. Vivamus sed diam quis nulla lacinia congue. Suspendisse efficitur ante ac ipsum eleifend laoreet vitae vel diam. Cras convallis, tortor imperdiet euismod scelerisque, dolor tortor vulputate justo, ac malesuada felis mi a leo. Mauris eu pellentesque turpis, quis tincidunt libero. Ut lorem lectus, scelerisque ac libero ut, hendrerit gravida nulla. Donec vestibulum tellus a mattis vehicula. Aenean faucibus ac nisi sit amet maximus. Vivamus fringilla gravida urna.
+
+
+\nocite{*}
+\bibliography{bib/refs}
+\bibliographystyle{IEEEtran}
+
+
+\vspace{12pt}
+
+\end{document}
